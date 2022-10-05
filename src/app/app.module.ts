@@ -8,10 +8,7 @@ import {FormsModule} from "@angular/forms";
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

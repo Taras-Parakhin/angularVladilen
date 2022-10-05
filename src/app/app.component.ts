@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularVladilen';
+  toggle: string | boolean = false
+  array: number[] = [1, 2, 3, 4, 5]
 }

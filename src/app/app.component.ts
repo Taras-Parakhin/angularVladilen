@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularVladilen';
+  inputValue = '';
+
+
+  getInput(event: Event) {
+    this.inputValue = (<HTMLInputElement>event.target).value
+  }
+
+  getBlur(str: string) {
+    this.inputValue = str
+  }
 }
